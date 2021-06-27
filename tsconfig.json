@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "sourceMap": true,
+    "checkJs": false,
+    "declaration": true,
+    "module": "ES2015",
+    "isolatedModules": true,
+    "strict": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "lib": ["esnext", "dom"],
+    "jsx": "react",
+    "paths": {
+      "*": ["./*"],
+      "@oyvinmar-forks/*": ["packages/*/dist"]
+    },
+    "baseUrl": "./src/",
+    "noEmit": true
+  },
+  "include": ["src/**/*", "packages/**/*", "*.js"],
+  "exclude": ["node_modules", "src/dist"]
+}

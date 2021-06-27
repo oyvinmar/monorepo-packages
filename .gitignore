@@ -1,0 +1,11 @@
+.DS_Store
+dist
+node_modules
+storybook-static
+.idea
+.vscode
+.nyc_output
+.env.local
+yarn-error.log
+/material-icons
+.npmrc

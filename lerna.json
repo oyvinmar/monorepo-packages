@@ -1,0 +1,14 @@
+{
+  "version": "independent",
+  "packages": ["packages/*"],
+  "publish": {
+    "ignoreChanges": ["*.md"]
+  },
+  "command": {
+    "version": {
+      "message": "Publish [ci-publish-packages]"
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}

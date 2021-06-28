@@ -90,7 +90,7 @@ export const Button = styled.button<ButtonProps>`
   ${(props) =>
     props.primaryLight &&
     css`
-      color: ${colors.blue100};
+      color: ${colors.green75};
       background-color: transparent;
       &:hover {
         background-color: ${getHoverBgColor(props)};

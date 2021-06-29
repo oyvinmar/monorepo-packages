@@ -54,7 +54,7 @@ const getHoverBgColor = (props: ButtonProps) => {
  */
 export const Button = styled.button<ButtonProps>`
   border: none;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.5px;
   line-height: 36px;

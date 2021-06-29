@@ -67,7 +67,7 @@ export const Button = styled.button<ButtonProps>`
   ${marginMixin}
 
   .material-icons-round {
-    vertical-align: middle;
+    vertical-align: top;
     margin: -4px 0 0 0;
     font-size: 18px;
   }

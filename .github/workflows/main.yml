@@ -8,7 +8,7 @@ jobs:
       - uses: mshick/add-pr-comment@v1
         with:
           message: |
-            **🎨Storybook preview:** https://example.com/${{ github.head_ref }} ${{ github.head_ref }}
+            **🎨 Storybook preview:** https://example.com/${{ github.head_ref }} ${{ github.head_ref }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
           allow-repeats: false # This is the default

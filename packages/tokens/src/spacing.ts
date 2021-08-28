@@ -6,7 +6,6 @@ export const s16 = '16px';
 export const s20 = '20px';
 export const s24 = '24px';
 export const s32 = '32px';
-export const s40 = '40px';
 export const s48 = '48px';
 export const s56 = '56px';
 export const s64 = '64px';
@@ -22,7 +21,6 @@ export const spacing = {
   s20,
   s24,
   s32,
-  s40,
   s48,
   s56,
   s64,

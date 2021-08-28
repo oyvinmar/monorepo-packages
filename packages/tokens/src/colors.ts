@@ -5,7 +5,6 @@ export const grey55 = '#6F7D90';
 export const grey65 = '#8D9AAC';
 export const grey80 = '#B7BDC9';
 export const grey90 = '#D6D9E1';
-export const grey95 = '#EEEFF3';
 export const grey100 = '#F6F7FA';
 
 export const white100 = '#FFFFFF';
@@ -33,7 +32,6 @@ export const colors = {
   grey65,
   grey80,
   grey90,
-  grey95,
   grey100,
 
   white100,

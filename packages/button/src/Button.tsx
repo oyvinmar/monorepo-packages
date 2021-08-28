@@ -32,9 +32,9 @@ const getActiveCss = (hoverBgColor: string) => css`
 
 const hoverBgColorMap = new Map([
   ["primary", dimmers.hover(colors.blue100)],
-  ["primaryLight", colors.grey95],
-  ["danger", colors.grey95],
-  ["default", colors.grey95],
+  ["primaryLight", colors.grey90],
+  ["danger", colors.grey90],
+  ["default", colors.grey90],
 ]);
 const getHoverBgColor = (props: ButtonProps) => {
   if (props.hoverBgColor) return props.hoverBgColor;

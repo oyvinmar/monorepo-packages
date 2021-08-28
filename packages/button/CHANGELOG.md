@@ -1,5 +1,14 @@
 # @oyvinmar-forks/button
 
+## 0.3.2
+
+### Patch Changes
+
+- ee8a379: Changed default background color
+- Updated dependencies [ee8a379]
+  - @oyvinmar-forks/tokens@0.3.0
+  - @oyvinmar-forks/style-helpers@0.1.3
+
 ## 0.3.1
 
 ### Patch Changes

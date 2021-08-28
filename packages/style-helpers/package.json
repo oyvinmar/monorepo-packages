@@ -1,6 +1,6 @@
 {
   "name": "@oyvinmar-forks/style-helpers",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "module": "dist/style-helpers.esm.js",
   "typings": "dist/index.d.ts",
@@ -25,7 +25,7 @@
     "styled-components": "5.1.1"
   },
   "dependencies": {
-    "@oyvinmar-forks/tokens": "^0.1.1",
+    "@oyvinmar-forks/tokens": "^0.2.0",
     "polished": "3.4.4"
   }
 }

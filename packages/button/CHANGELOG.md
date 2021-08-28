@@ -1,5 +1,13 @@
 # @oyvinmar-forks/button
 
+## 0.3.1
+
+### Patch Changes
+
+- Updated dependencies [23a3cce]
+  - @oyvinmar-forks/tokens@0.2.0
+  - @oyvinmar-forks/style-helpers@0.1.2
+
 ## 0.3.0
 
 ### Minor Changes

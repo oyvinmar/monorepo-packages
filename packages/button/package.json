@@ -1,6 +1,6 @@
 {
   "name": "@oyvinmar-forks/button",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
@@ -27,7 +27,7 @@
     "styled-components": "5.1.1"
   },
   "dependencies": {
-    "@oyvinmar-forks/tokens": "^0.1.1",
-    "@oyvinmar-forks/style-helpers": "^0.1.1"
+    "@oyvinmar-forks/tokens": "^0.2.0",
+    "@oyvinmar-forks/style-helpers": "^0.1.2"
   }
 }

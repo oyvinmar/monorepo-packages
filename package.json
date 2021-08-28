@@ -10,9 +10,9 @@
     "build": "lerna run build",
     "lint": "lerna run lint --parallel",
     "test": "lerna run test --parallel",
-    "release": "lerna publish from-git --yes",
+    "release": "changeset publish && git push --follow-tags",
     "check-types": "tsc -p tsconfig.json",
-    "deploy": "yarn lerna version --no-changelog"
+    "deploy": "changeset version && git add --all && git commit -m 'Publish'"
   },
   "repository": {
     "type": "git",

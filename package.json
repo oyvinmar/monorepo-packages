@@ -12,7 +12,7 @@
     "test": "lerna run test --parallel",
     "release": "changeset publish && git push --follow-tags",
     "check-types": "tsc -p tsconfig.json",
-    "deploy": "changeset version && git add --all && git commit -m 'Publish'"
+    "deploy": "git-is-clean && changeset version && git add --all && git commit -m 'Publish'"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
     "@typescript-eslint/parser": "^4.26.1",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^6.11.0",
+    "git-is-clean": "^3.0.1",
     "lerna": "^4.0.0",
     "prettier": "^2.3.1",
     "react": "^16.12.0",

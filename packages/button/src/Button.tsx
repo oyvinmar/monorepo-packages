@@ -114,9 +114,9 @@ export const Button = styled.button<ButtonProps>`
     props.danger &&
     css`
       background-color: #fff;
-      color: ${colors.red80};
+      color: ${colors.pink75};
       &:hover {
-        color: ${dimmers.hover(colors.red80)};
+        color: ${dimmers.hover(colors.pink75)};
         background-color: ${getHoverBgColor(props)};
       }
       ${props.active && getActiveCss("#fff")}

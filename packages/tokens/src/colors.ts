@@ -15,8 +15,6 @@ export const green75 = '#6DBCB4';
 
 export const orange100 = '#FCB226';
 
-export const red80 = '#CB5958';
-
 export const purple45 = '#770079';
 
 export const blue80 = '#2974C4';
@@ -41,8 +39,6 @@ export const colors = {
   green75,
 
   orange100,
-
-  red80,
 
   purple45,
 

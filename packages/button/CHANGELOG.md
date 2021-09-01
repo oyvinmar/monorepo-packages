@@ -1,5 +1,15 @@
 # @oyvinmar-forks/button
 
+## 0.3.3
+
+### Patch Changes
+
+- 011b1a5: Deleted the `red80` color.
+- Updated dependencies [011b1a5]
+- Updated dependencies [011b1a5]
+  - @oyvinmar-forks/style-helpers@0.1.4
+  - @oyvinmar-forks/tokens@1.0.0
+
 ## 0.3.2
 
 ### Patch Changes

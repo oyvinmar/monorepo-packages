@@ -1,5 +1,11 @@
 # @oyvinmar-forks/tokens
 
+## 1.0.0
+
+### Major Changes
+
+- 011b1a5: Deleted the `red80` color.
+
 ## 0.3.0
 
 ### Minor Changes
